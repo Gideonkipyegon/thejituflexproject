@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sneakers company</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        html,
+        body {
+            height: 100%;
+            background-color: rgb(216, 169, 169);
+        }
+        
+        .container {
+            height: 8%;
+            color: rgb(99, 96, 96);
+            display: flex;
+            background-color: rgb(224, 221, 216);
+            justify-content: space-around;
+            padding: 0%;
+            position: relative;
+            row-gap: 3px;
+            gap: 10px;
+        }
+        
+        .navbar {
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        .container>div {
+            justify-content: flex-start;
+            flex-wrap: nowrap;
+        }
+        
+        h5 {
+            color: rgb(231, 231, 40);
+        }
+        
+        h1 {
+            color: black
+        }
+        
+        p {
+            font-size: 13px
+        }
+        
+        .navbar-2 {
+            justify-content: flex-end;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        navbar-1>div>img {
+            width: 10%;
+            margin-top: 10px;
+            justify-content: flex-start;
+            background-color: aquamarine;
+        }
+        
+        .troley {
+            justify-content: end;
+            align-self: top;
+            flex-direction: column;
+        }
+        
+        .container>div {
+            justify-content: space-between;
+            row-gap: 0;
+            flex-direction: row;
+            align-content: flex-start;
+        }
+        
+        .container-3 {
+            height: 8%;
+            color: rgb(99, 96, 96);
+            display: flex;
+            background-color: rgb(216, 169, 169);
+            align-items: end;
+            justify-content: center;
+            padding: 0%;
+            position: relative;
+            row-gap: .2px;
+            gap: 10px;
+        }
+        
+        .container-4 {
+            height: 8%;
+            color: rgb(99, 96, 96);
+            display: flex;
+            background-color: rgb(216, 169, 169);
+            align-items: end;
+            justify-content: space-around;
+            padding: 0%;
+            position: relative;
+            row-gap: 2px;
+            gap: 10px;
+        }
+        
+        .container-5 {
+            justify-self: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="container">
+        <div class="navbar">sneakers</div>
+        <div>colections</div>
+        <div>men</div>
+        <div>women</div>
+        <div>about</div>
+        <div>contact</div>
+        <div class="troley "><img src=" " alt="troley "></div>
+        <img src="./images/myimage.jpg " alt="profile " style="border-radius: 50% ">
+
+    </nav><br>
+    <nav class=" navbar-1 ">
+        <div class="image1 ">
+            <img src="./images/sneakers.jpg " width="40%" height="100%"></div>
+    </nav>
+    <nav class=" navbar-2 ">
+        <h5>SNEAKERS COMPANY</h5>
+        <h1>Fall Limited Edition Sneakers</h1>
+        <p>These low-profile sneakers are your perfect casual wear companion.Fetuaring a durable<br> ruber outer sole,they will withstand everything the weather can offer.</p>
+    </nav>
+    <nav class="container-3">
+        <h1>$125.00</h1>
+
+        <input type="submit" value="50%" style="background-color: rgb(243, 243, 130);">
+        <h1 style="text-decoration-line: line-through;color: gray;justify-self: end;">$250.00</h1>
+    </nav>
+    <nav class="container-4">
+        <h1 style="color: rgb(240, 240, 136);">-</h1>
+        <h1 style="color: rgb(20, 20, 19);">1</h1>
+        <h1 style="color: rgb(235, 235, 76); ">+</h1>
+    </nav>
+    <nav class="container-5">
+        <input type="text" value="Add to cart"> </nav>
+</body>
+
+</html>
